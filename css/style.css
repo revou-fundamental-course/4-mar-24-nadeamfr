@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+:root {
+    --underweight: orange;
+    --normal: green;
+    --overweight: lightcoral;
+    --obese: crimson;
+}
+
+* {
+    font-family: "Jost", sans-serif;
+
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(244, 206, 250, 1) 0%, rgba(18, 206, 255, 1) 100%);
+}
+
+header>h1,
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.main-container {
+    display: flex;
+}
+
+.container-item {
+    width: 100%;
+    padding: 24px;
+}
+
+.container-form,
+.container-illness {
+    text-align: center;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+}
+
+.container-result {
+    text-align: center;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.bmi-scale {
+    text-align: center;
+    background-color: white;
+    display: flex;
+}
+
+.bmi-scale div {
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 5px solid var(--color);
+    padding-top: 10px;
+}
+
+.bmi-scale h4 {
+    font-size: 0.75rem;
+    color: slategray;
+}
+
+.download-button {
+    text-align: center;
+    background: white;
+    padding-bottom: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.container-form {
+    text-align: left;
+    background-color: white;
+    padding: 24px;
+}
+
+.container-form>div {
+    padding: 8px;
+}
+
+.form-item {
+    margin-top: 5px;
+    width: 70%;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.container-text {
+    text-align: justify;
+}
+
+.reset-btn {
+    background-color: coral
+}
+
+button {
+    border: 1px solid white;
+    width: 33.2%;
+    height: 32px;
+    margin-left: 10px;
+    margin-top: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(244, 206, 250, 1) 0%, rgba(18, 206, 255, 1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.container-form button[type="reset"] {
+    background: coral;
+}
+
+.container-text button[id="console-button"],
+[id="registration-button"] {
+    width: 45%;
+}
+
+.container-illness button[id="console-button"],
+[id="registration-button"] {
+    width: 45%;
+}
+
+.container-illness button:hover {
+    filter: brightness(90%)
+}
+
+.container-form button:hover {
+    filter: brightness(90%)
+}
+
+.container-text button:hover {
+    filter: brightness(90%)
+}
+
+.container-item button:hover {
+    filter: brightness(90%)
+}
+
+.container-result #bmi {
+    font-size: 4rem;
+}
+
+.container-result #desc strong {
+    text-transform: uppercase;
+}
+
+#calculate-button {
+    border: 0px;
+    background-color: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(244, 206, 250, 1) 0%, rgba(18, 206, 255, 1) 100%);
+    color: white;
+    margin-right: 8px;
+}
+
+.container-apps {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container-apps img {
+    width: 400px;
+    height: auto;
+}
